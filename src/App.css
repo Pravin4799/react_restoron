@@ -1,0 +1,402 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  
+  
+}
+ /* @font-face { 
+  font-family: pravin;
+  src: url(/my-app/src/font/NunitoSans-Regular.ttf);
+}  */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+          /* Designing of Layout */
+
+.name {
+  color: #FEA116 !important;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: sans-serif;
+  
+}
+.Restoron {
+  margin-top: 7px;
+}
+.bg {
+   background-color: #0F172B;
+}
+
+.fc {
+  color: white  !important;
+  font-size: 15px;
+  font-family:sans-serif;
+}
+
+.fc:hover {
+  color: #FEA116  !important;
+}
+.fc2 {
+  color: #FEA116;
+  margin-left: 118px;
+}
+
+.btn1 {
+  width: 25% !important;
+  margin-right: 49px!important;
+  color: white !important;
+  font-weight: bold !important;
+  margin-top: 16px !important;
+}
+
+.btn2 {
+  width: 40% !important;
+  height: 55px;
+  color: white !important;
+  margin-right: 49px!important;
+  font-size: 20pxpx !important ; 
+  font-weight: bold !important; 
+  
+}
+.btn4 {
+  margin-left: 218px;
+}
+
+.quote {
+  font-size: 73px;
+  font-weight: bold;
+}
+
+.plate {
+  height: auto;
+  max-width: 90%;
+}
+
+
+.img {
+  animation: imgRotate 50s linear infinite;
+}
+
+@keyframes imgRotate { 
+  100% { 
+      transform: rotate(360deg); 
+  } 
+}
+
+.icon {
+  height: 50px;
+  width: 18%;
+  
+}
+
+.aimg1 {
+  height: 200px;
+  width: 43%;
+  margin-left: 10px;
+}
+.aimg2 {
+  height: 170px;
+  width: 32%;
+  margin-left: 27px;
+  margin-top: 28px;
+}
+.aimg3 {
+  height: 170px;
+  width: 32%;
+  margin-left: 82px;
+  margin-top: -14px;
+}
+.aimg4 {
+  height: 200px;
+  width: 43%;
+  margin-left: 10px;
+  margin-top: 16px;
+}
+
+.size {
+  font-size: 25px;
+  color: #FEA116;
+  font-weight: bold;
+}
+.size1 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+.space {
+  padding-top: 52px;
+}
+.fcolor {
+  color: white;
+}
+.space1 {
+  padding-top: 20px;
+}
+.bgimg {
+  width: 100%;
+  background-image: url(./comp/Images/bg-hero.jpg);
+  background-attachment: fixed;
+}
+
+.pad {
+  padding-right: 47px !important;
+  padding-top: 85px;
+}
+.btnspace {
+  margin-right: -12px !important;
+}
+.wid {
+ width: 60%;
+ margin-left: 121px;
+}
+.white {
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  
+}
+.white:hover {
+  font-size: 16px;
+}
+.lastbtn {
+  width: 55%;
+  margin-top: 12px;
+  margin-left: 62px;
+}
+
+.footer1 {
+  margin-top: 100px;
+}
+
+
+.list {
+  padding-top: 30px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: 30px;
+}
+.cprice {
+  margin-left: 70px;
+}
+.describe {
+  font-size: 12px;
+  margin-top: -33px;
+  margin-left: 124px;
+}
+
+.App {
+  text-align: left !important;
+}
+
+.App1 {
+  text-align: center;
+}
+
+.menubar {
+  padding-top: 0 !important;
+}
+
+.stick {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+
+
+.btn5 {
+  margin-top: 6px !important;
+}
+.left {
+  margin-left: -20px !important;
+}
+.fbin {
+  margin-left: 25px;
+  border-radius: 50%;
+}
+
+.radius {
+  border-radius: 50%;
+  border-top-left-radius: 50% !important;
+  border-top-right-radius: 50% !important;
+}
+
+.card{
+  border: 0px !important;
+  
+}
+.card:hover {
+box-shadow: 5px 10px 5px 10px  grey;
+}
+
+
+.footerborder {
+  border-bottom: 3px solid white;
+}
+        /* Important */
+.round-icon{ 
+  background-color: white;
+   /* padding: 1px; */ 
+   color: black; 
+   padding:25px 36px; 
+   border-radius: 30px; 
+   border: none; 
+   width: 172px; 
+   align-items: center; 
+   transition: all .4s ease-out 0s; 
+   position: relative; 
+   box-shadow: 1px 5px 10px 5px lightgray;
+}
+.round-icon::before{ 
+  position: absolute; content: ""; 
+  width: 100%; 
+  height: 0; 
+  background: #FEA116; 
+  transition: .5s; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  z-index: -1; 
+  border-radius: 30px; 
+}
+.round-icon:hover{ 
+  border:1px solid transparent ; 
+  color: white;
+  z-index: 1; }
+.round-icon:hover::before
+{ 
+  height: 100%; 
+}
+
+
+
+ 
+                 /*Media Queries  */
+
+@media only screen and (max-width: 425px) {
+ 
+.two {
+  width: 100%;
+  height: auto;
+  padding-bottom: 10px;
+} 
+.navbar-toggler {
+margin-left: 138px;
+margin-top: 6px;
+}
+.book {
+margin-top: 10px !important;
+width: 100% !important;
+}
+.quote {
+  margin-left: 30px;
+  margin-top: -39px;
+}
+.para {
+  width: 200%;
+  margin-left: 20px;
+}
+.book1 {
+  margin-left: 91px;
+}
+.rotate {
+  margin-top: 40px !important;
+  width: 100% !important;
+  height: auto;
+  margin-left: 20px;
+}
+.box {
+  width: 80% !important;
+  margin-left: 43px;
+  padding-top: 46px;
+  margin-top: -17px !important;
+}
+.photos {
+  margin-top: -87px !important;
+}
+
+.about {
+  margin-top: 50px !important;
+  margin-right: 25px !important;
+  text-align: center;
+}
+.aimg1 {
+  height: 200px;
+  width: 47%;
+  margin-left: 27px;
+}
+.aimg2 {
+  height: 159px;
+  width: 37%;
+  margin-left: 27px;
+  margin-top: 28px;
+}
+.aimg3 {
+  height: 159px;
+  width: 37%;
+  margin-left: 73px;
+  margin-top: 22px;
+}
+.aimg4 {
+  height: 200px;
+  width: 47%;
+  margin-left: 218px;
+  margin-top: -161px;
+}
+.fc2 {
+  margin-left: 172px;
+  margin-top: 10px !important;
+
+}
+.describe {
+  margin-top: -69px !important;
+}
+.cprice{
+  margin-left: 28px;
+}
+.wid {
+  margin-left: 72px;
+}
+.btn4 {
+  margin-left: 45px;
+  width: 75% !important;
+  
+}
+.card1 {
+  padding-left: 110px !important;
+}
+
+.card2 {
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
